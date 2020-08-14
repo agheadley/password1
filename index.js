@@ -8,7 +8,7 @@ const url = env.url;
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 
-console.log('hello');
+console.log('attempting to set new password ...');
 console.log(process.argv);
 var myArgs = process.argv.slice(2);
 console.log('myArgs: ', myArgs);
